@@ -26,7 +26,7 @@
 
 
 
-
+---
 
 `RakeKor` is a Korean version of `Rapid Automatic Keyword Extraction (RAKE)` Algorithm. 
 
@@ -66,57 +66,39 @@ pip3 install -r requirements.txt
 
   텍스트 파일이 위치하고 있는 폴더의 경로 (기본값: samples/)
 
-- [--output_dir]
-
-  결과 엑셀파일(.xlsx)을 저장할 경로 (기본값: output/)
-
-- [--compound]
-
-  복합어를 포함할지 여부 (기본값: False)
-
-- [--min_length]
-
-  키워드를 구성하는 최소 토큰 길이
-
-- [--max_length]
-
-  키워드를 구성하는 최대 토큰 길이
-
-- [--show result]
-
-  터미널에 중간 데이터프레임을 표시할지 여부 (기본값: True)
-
-  
-
-- [--source_texts_dir]
-
   Targeting text source directory (default: samples/)
 
 - [--output_dir]
+
+  결과 엑셀파일(.xlsx)을 저장할 경로 (기본값: output/)
 
   Targeting result output directory (default: output/)
 
 - [--compound]
 
+  복합어를 포함할지 여부 (기본값: False)
+
   Whether the algorithm considers compounds or not (default: False)
 
 - [--min_length]
+
+  키워드를 구성하는 최소 토큰 길이
 
   Minimum token lengths for keywords
 
 - [--max_length]
 
+  키워드를 구성하는 최대 토큰 길이
+
   Maximum token lengths for keywords
 
 - [--show result]
 
+  터미널에 중간 데이터프레임을 표시할지 여부 (기본값: True)
+
   Showing intermediate dataframe result on terminal (default: True)
 
-
-
-
-
-
+  
 
 ## Sample Result
 
